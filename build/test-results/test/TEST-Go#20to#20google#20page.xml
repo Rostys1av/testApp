@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Go to google page" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-27T15:57:41" hostname="EPUAKYIW0333" time="14.492">
+  <properties/>
+  <testcase name="Google search" classname="Go to google page" time="14.492">
+    <failure message="java.lang.RuntimeException: Element not found or not visible: [ [ //div[@id='foot'] ] -&gt; .//table//td[./a and not(@role='heading')]/a ] -&gt; (./self::node())[2]" type="java.lang.RuntimeException">java.lang.RuntimeException: Element not found or not visible: [ [ //div[@id='foot'] ] -&gt; .//table//td[./a and not(@role='heading')]/a ] -&gt; (./self::node())[2]
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:68)
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:43)
+	at my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem.getPageNumber(ResultPageNavigationItem.java:12)
+	at my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(GoogleSteps.java:48)
+	at ✽.I click on page number &quot;5&quot;(file:///C:/Users/Rostyslav_Biliaiev/Work/test-app/src/test/resources/features/google-test.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+@googleTest
+Scenario: Google search                             ?[90m# src/test/resources/features/google-test.feature:4?[0m
+  ?[32mGiven ?[0m?[32mI Open Google Search Page?[0m                   ?[90m# my.test.app.test.steps.GoogleSteps.iOpenGoogleSearchPage()?[0m
+  ?[32mAnd ?[0m?[32mI enter value "?[0m?[32m?[1mtest?[0m?[32m" to sear field?[0m            ?[90m# my.test.app.test.steps.GoogleSteps.iEnterValueToSearch(java.lang.String)?[0m
+  ?[32mThen ?[0m?[32mLink to site "?[0m?[32m?[1mwww.speedtest.net?[0m?[32m" exists?[0m      ?[90m# my.test.app.test.steps.GoogleSteps.linkToSiteExist(java.lang.String)?[0m
+my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem@aeb4a6c
+my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem@4b5ffaee
+  ?[31mWhen ?[0m?[31mI click on page number "?[0m?[31m?[1m5?[0m?[31m"?[0m                   ?[90m# my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(java.lang.String)?[0m
+      ?[31mjava.lang.RuntimeException: Element not found or not visible: [ [ //div[@id='foot'] ] -> .//table//td[./a and not(@role='heading')]/a ] -> (./self::node())[2]
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:68)
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:43)
+	at my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem.getPageNumber(ResultPageNavigationItem.java:12)
+	at my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(GoogleSteps.java:48)
+	at ?.I click on page number "5"(file:///C:/Users/Rostyslav_Biliaiev/Work/test-app/src/test/resources/features/google-test.feature:8)
+?[0m
+  ?[36mThen ?[0m?[36mSite description "?[0m?[36m?[1mWidespread testing?[0m?[36m" exists?[0m ?[90m# my.test.app.test.steps.GoogleSteps.siteDescriptionExists(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 27, 2020 5:57:41 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31644
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585324665.659][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 27, 2020 5:57:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (my.test.app.utils.base.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[1585324668.293][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324668.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.725][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.969][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>

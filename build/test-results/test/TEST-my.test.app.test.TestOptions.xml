@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.test.app.test.TestOptions" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="EPUAKYIW0333" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31mfile:///C:/Users/Rostyslav_Biliaiev/Work/test-app/src/test/resources/features/google-test.feature:4?[0m# Google search
+
+1 Scenarios (?[31m1 failed?[0m)
+5 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m3 passed?[0m)
+0m14.494s
+
+
+java.lang.RuntimeException: Element not found or not visible: [ [ //div[@id='foot'] ] -> .//table//td[./a and not(@role='heading')]/a ] -> (./self::node())[2]
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:68)
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:43)
+	at my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem.getPageNumber(ResultPageNavigationItem.java:12)
+	at my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(GoogleSteps.java:48)
+	at ?.I click on page number "5"(file:///C:/Users/Rostyslav_Biliaiev/Work/test-app/src/test/resources/features/google-test.feature:8)
+
+
+]]></system-out>
+  <system-err><![CDATA[Mar 27, 2020 5:57:41 PM io.cucumber.core.options.CucumberPropertiesParser parse
+WARNING: Passing commandline options via the property `cucumber.options` has been deprecatedin favour of explicitly using property names.
+Please use these instead: [cucumber.ansi-colors.disabled, cucumber.execution.dry-run, cucumber.execution.limit, cucumber.execution.order, cucumber.execution.strict, cucumber.execution.wip, cucumber.features, cucumber.filter.name, cucumber.filter.tags, cucumber.glue, cucumber.object-factory, cucumber.plugin, cucumber.snippet-type]
+Mar 27, 2020 5:57:41 PM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+]]></system-err>
+</testsuite>

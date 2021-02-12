@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Go to google page</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Go to google page</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Go to google page</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">14.492s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Google search"></a>
+<h3 class="failures">Google search</h3>
+<span class="code">
+<pre>java.lang.RuntimeException: Element not found or not visible: [ [ //div[@id='foot'] ] -&gt; .//table//td[./a and not(@role='heading')]/a ] -&gt; (./self::node())[2]
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:68)
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:43)
+	at my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem.getPageNumber(ResultPageNavigationItem.java:12)
+	at my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(GoogleSteps.java:48)
+	at ✽.I click on page number &quot;5&quot;(file:///C:/Users/Rostyslav_Biliaiev/Work/test-app/src/test/resources/features/google-test.feature:8)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Google search</td>
+<td class="failures">14.492s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+@googleTest
+Scenario: Google search                             ?[90m# src/test/resources/features/google-test.feature:4?[0m
+  ?[32mGiven ?[0m?[32mI Open Google Search Page?[0m                   ?[90m# my.test.app.test.steps.GoogleSteps.iOpenGoogleSearchPage()?[0m
+  ?[32mAnd ?[0m?[32mI enter value &quot;?[0m?[32m?[1mtest?[0m?[32m&quot; to sear field?[0m            ?[90m# my.test.app.test.steps.GoogleSteps.iEnterValueToSearch(java.lang.String)?[0m
+  ?[32mThen ?[0m?[32mLink to site &quot;?[0m?[32m?[1mwww.speedtest.net?[0m?[32m&quot; exists?[0m      ?[90m# my.test.app.test.steps.GoogleSteps.linkToSiteExist(java.lang.String)?[0m
+my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem@aeb4a6c
+my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem@4b5ffaee
+  ?[31mWhen ?[0m?[31mI click on page number &quot;?[0m?[31m?[1m5?[0m?[31m&quot;?[0m                   ?[90m# my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(java.lang.String)?[0m
+      ?[31mjava.lang.RuntimeException: Element not found or not visible: [ [ //div[@id='foot'] ] -&gt; .//table//td[./a and not(@role='heading')]/a ] -&gt; (./self::node())[2]
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:68)
+	at my.test.app.utils.ui.base.Widget.element(Widget.java:43)
+	at my.test.app.utils.ui.app.customwidget.ResultPageNavigationItem.getPageNumber(ResultPageNavigationItem.java:12)
+	at my.test.app.test.steps.GoogleSteps.iClickOnPageNumber(GoogleSteps.java:48)
+	at ?.I click on page number &quot;5&quot;(file:///C:/Users/Rostyslav_Biliaiev/Work/test-app/src/test/resources/features/google-test.feature:8)
+?[0m
+  ?[36mThen ?[0m?[36mSite description &quot;?[0m?[36m?[1mWidespread testing?[0m?[36m&quot; exists?[0m ?[90m# my.test.app.test.steps.GoogleSteps.siteDescriptionExists(java.lang.String)?[0m
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 27, 2020 5:57:41 PM java.util.prefs.WindowsPreferences &lt;init&gt;
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31644
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585324665.659][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 27, 2020 5:57:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (my.test.app.utils.base.Configuration).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[1585324668.293][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324668.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.725][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585324669.969][SEVERE]: Timed out receiving message from renderer: 0.100
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Mar 27, 2020 5:57:56 PM</p>
+</div>
+</div>
+</body>
+</html>

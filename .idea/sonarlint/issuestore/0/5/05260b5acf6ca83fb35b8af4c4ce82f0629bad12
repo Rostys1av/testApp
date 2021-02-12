@@ -1,0 +1,25 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(»±áùÿÿÿÿ8›ö˜.
+}	java:S116'"\Rename this field "_webDriverLocator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ˆÙøÿÿÿÿ8›ö˜.
+s	java:S116("RRename this field "_parent" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úıĞ§ıÿÿÿÿ8›ö˜.
+b
+java:S1124/"EReorder the modifiers to comply with the Java Language Specification.(¥Ò¾è8›ö˜.
+g
+java:S11240"EReorder the modifiers to comply with the Java Language Specification.(úÅéçıÿÿÿÿ8›ö˜.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(•ÛÅ8›ö˜.
+g
+java:S1124'"EReorder the modifiers to comply with the Java Language Specification.(…ˆÙøÿÿÿÿ8›ö˜.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ğÏ8›ö˜.
+b
+java:S1124&"EReorder the modifiers to comply with the Java Language Specification.(¬µÆ—8›ö˜.
+b
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(½ƒ»¡8›ö˜.
+u	java:S116&"YRename this field "_locatorString" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬µÆ—8›ö˜.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(©ÑÉ±8›ö˜.
+g
+java:S11242"EReorder the modifiers to comply with the Java Language Specification.(ú†²Êøÿÿÿÿ8›ö˜.
+g
+java:S1124("EReorder the modifiers to comply with the Java Language Specification.(úıĞ§ıÿÿÿÿ8›ö˜.

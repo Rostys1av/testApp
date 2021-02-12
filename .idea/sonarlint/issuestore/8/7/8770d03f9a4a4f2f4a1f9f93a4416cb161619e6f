@@ -1,0 +1,18 @@
+
+[
+java:S5993"9Change the visibility of this constructor to "protected".(è’ƒ©üÿÿÿÿ8ûôôçõ.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(´·êØ8˜ö˜.
+B
+java:S1181"%Catch Exception instead of Throwable.(ÿŠø„8˜ö˜.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ñì«ø8˜ö˜.
+g
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(Ù‹ùüÿÿÿÿ8˜ö˜.
+g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(ƒÖÌèşÿÿÿÿ8˜ö˜.
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(´„¦ıÿÿÿÿ8˜ö˜.
+b
+java:S1124+"EReorder the modifiers to comply with the Java Language Specification.(œõèò8˜ö˜.
+o	java:S116"SRename this field "_locator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñì«ø8˜ö˜.

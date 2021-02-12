@@ -1,0 +1,70 @@
+
+g	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÍâÂº.
+h
+java:S1124‚"EReorder the modifiers to comply with the Java Language Specification.(£éíÉûÿÿÿÿ8ÍâÂº.
+g
+java:S1124~"EReorder the modifiers to comply with the Java Language Specification.(ó–öúÿÿÿÿ8ÍâÂº.
+v	java:S116£"TRename this field "_strValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôêåËúÿÿÿÿ8ÍâÂº.
+c
+java:S1124¡"EReorder the modifiers to comply with the Java Language Specification.(ø«šŸ8ÍâÂº.
+s	java:S116"WRename this field "_initialized" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î±ÕÜ8ÍâÂº.
+h
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­òüìùÿÿÿÿ8ÍâÂº.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬Ÿ¨²8ÍâÂº.
+c
+java:S1124˜"EReorder the modifiers to comply with the Java Language Specification.(œ°åÑ8ÍâÂº.
+g
+java:S1124`"EReorder the modifiers to comply with the Java Language Specification.(óœ‚Áşÿÿÿÿ8ÍâÂº.
+c	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(÷ÑÈå8ÍâÂº.
+p	java:S116f"TRename this field "_required" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆä8ÍâÂº.
+w	java:S116"VRename this field "_configFile" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡´ÔÙşÿÿÿÿ8ÍâÂº.
+c	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(÷ÑÈå8ÍâÂº.
+
+java:S1192"lDefine a constant instead of duplicating this literal "-------------------------------------------" 4 times.(Ó²éğşÿÿÿÿ8ÍâÂº.
+b
+java:S1124K"EReorder the modifiers to comply with the Java Language Specification.(›ˆáô8ÍâÂº.
+g
+java:S1124e"EReorder the modifiers to comply with the Java Language Specification.(êªôäúÿÿÿÿ8ÍâÂº.
+j	java:S116"ORename this field "_log" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÇ÷D8ÍâÂº.
+b
+java:S1124p"EReorder the modifiers to comply with the Java Language Specification.(•Ù“ı8ÍâÂº.
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(®ß¸åùÿÿÿÿ8ÍâÂº.
+[
+java:S5993"9Change the visibility of this constructor to "protected".(Û¦âşûÿÿÿÿ8³í÷çõ.
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¡´ÔÙşÿÿÿÿ8ÍâÂº.
+g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÍâÂº.
+c	java:S112¸"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8ÍâÂº.
+}	java:S116"\Rename this field "_sysConfigRewrite" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıµ»áÿÿÿÿÿ8ÍâÂº.
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ûâºÎşÿÿÿÿ8ÍâÂº.
+g
+java:S1124O"EReorder the modifiers to comply with the Java Language Specification.(ßùªûÿÿÿÿ8ÍâÂº.
+g	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ãèÌ¥øÿÿÿÿ8ÍâÂº.
+b
+java:S1124d"EReorder the modifiers to comply with the Java Language Specification.(äñ®ş8ÍâÂº.
+b
+java:S1124u"EReorder the modifiers to comply with the Java Language Specification.(Ş±Úº8ÍâÂº.
+g
+java:S1124y"EReorder the modifiers to comply with the Java Language Specification.(€´¯áÿÿÿÿÿ8ÍâÂº.
+h
+java:S1124Ã"EReorder the modifiers to comply with the Java Language Specification.(­òüìùÿÿÿÿ8ÍâÂº.
+b
+java:S1124b"EReorder the modifiers to comply with the Java Language Specification.(Ã¾Ø´8ÍâÂº.
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ıµ»áÿÿÿÿÿ8ÍâÂº.
+b
+java:S1124c"EReorder the modifiers to comply with the Java Language Specification.(Ä‰ËĞ8ÍâÂº.
+c
+java:S1124†"EReorder the modifiers to comply with the Java Language Specification.(Œóçï8ÍâÂº.
+a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(şÇ÷D8ÍâÂº.
+r	java:S116"VRename this field "_properties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾‚Øÿ8ÍâÂº.
+a
+java:S1124S"EReorder the modifiers to comply with the Java Language Specification.(Àœ‰88ÍâÂº.
+y	java:S116g"XRename this field "_defaultValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë“—áüÿÿÿÿ8ÍâÂº.
+q	java:S116"URename this field "_envVarMap" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ÿ¨²8ÍâÂº.
+c
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿à˜8ÍâÂº.
